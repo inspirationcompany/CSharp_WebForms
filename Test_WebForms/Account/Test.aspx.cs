@@ -30,6 +30,7 @@ namespace Test_WebForms.Account
                     cmb_users.Items.Add(rdr["Email"].ToString());
                 }
                 form1.Controls.Add(cmb_users);
+                Label1.Text = "Text from GIT";
                 Label1.Text = temp;
 
             }
